@@ -4,6 +4,9 @@ matrix = []
 results = []
 isSystem2x2 = len(c) == 4
 
+if isSystem2x2 != 4 and isSystem2x2 != 9:
+	quit()
+
 try :
     for i in c:
         matrix.append(int(i))
